@@ -1,0 +1,24 @@
+name: deep-learning
+channels:
+    - defaults
+    - conda-forge
+    - pytorch
+    - pip
+dependencies:
+    - python=3.8.*
+    - numpy
+    - pandas
+    - matplotlib
+    - scikit-learn
+    - jupyterlab
+    - tensorflow=2.*
+    - pytorch=1.7.*
+    - pylint
+    - mypy
+    - pytorch
+    - torchvision
+    - torchaudio
+    - ipywidgets
+    - pip:
+        - progress
+        
